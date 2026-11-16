@@ -19,6 +19,18 @@ Everything happens in the company chat. There is no new app and no hardware.
 If nobody can do it, the office coordinator gets a message and the bot tries again the next day.
 Messages go out only during office hours, so nobody is pinged at night.
 
+## What people see in chat
+There is no new app; the chat **is** the interface. A typical refill looks like this:
+```
+#snacks-oslo   Bot: Snack box reported empty by Priya. Finding someone to refill it.
+DM to Ola      Bot: Can you refill the Oslo snack box (up to 1 200 NOK)?  [Accept] [Decline]
+#snacks-oslo   Bot: Ola is buying snacks, so nobody else needs to.
+DM to Kari     Bot: Thanks! The Oslo snack box is already being handled by Ola.   (Kari reported it again)
+DM to Ola      Ola: [receipt photo] 845.50
+#snacks-oslo   Bot: Snack box refilled by Ola. Thank you!
+DM to Ola      Bot: HR approved your snack claim of 845.50 NOK.
+```
+
 ## How each problem is solved
 | Problem | Solution |
 |---|---|
